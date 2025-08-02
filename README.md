@@ -8,6 +8,36 @@ The application is built with a modern tech stack, featuring a **React** fronten
 
 ## Screenshort 
 
+### Sign Up Page
+
+<img width="1917" height="906" alt="Screenshot 2025-08-03 004737" src="https://github.com/user-attachments/assets/b9a59217-3fb1-498a-8e12-fbf552b01447" />
+
+### Login Page
+
+<img width="1917" height="902" alt="Screenshot 2025-08-03 004715" src="https://github.com/user-attachments/assets/eb78b755-3a9b-4454-84d7-154844935327" />
+
+### Admin Dashboard 
+
+<img width="1895" height="904" alt="Screenshot 2025-08-03 004806" src="https://github.com/user-attachments/assets/c59d9ddf-77b6-42b6-9e25-615dd04e1975" />
+
+<img width="1888" height="900" alt="Screenshot 2025-08-03 004843" src="https://github.com/user-attachments/assets/d7b69ef8-eea9-4677-9703-aa0ff10ef48c" />
+
+<img width="1892" height="904" alt="Screenshot 2025-08-03 004903" src="https://github.com/user-attachments/assets/da845c3d-e22c-4a8c-af3d-427a2240a921" />
+
+<img width="1886" height="902" alt="Screenshot 2025-08-03 004927" src="https://github.com/user-attachments/assets/45667590-81f9-43ef-aa2e-1fbd8c621dca" />
+
+### Reset Password for all user (System Administrator, Store Owner, Normal User)
+
+<img width="1908" height="897" alt="Screenshot 2025-08-03 005026" src="https://github.com/user-attachments/assets/1d7e14fe-5b4d-4c0b-b14e-06c4db388441" />
+
+### Store Owner Dashboard
+
+<img width="1896" height="905" alt="Screenshot 2025-08-03 005306" src="https://github.com/user-attachments/assets/f2a2accf-1784-4fdc-bd61-c1743c9c5144" />
+
+### Normal User Dashboard
+
+<img width="1889" height="903" alt="Screenshot 2025-08-03 005001" src="https://github.com/user-attachments/assets/328bc911-8a02-45f2-903e-c45d1219f88c" />
+
 
 ## 🚀 Features
 
