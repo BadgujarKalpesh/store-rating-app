@@ -58,3 +58,48 @@ exports.createUser = (req, res) => {
         res.status(500).send({ message: err.message });
     });
 };
+
+
+exports.updatePassword = (req, res) => {
+    const userId = req.userId;
+    const { currentPassword, newPassword } = req.body;
+
+    // Basic validation
+    if (!currentPassword || !newPassword) {
+        return res.status(400).send({ message: "Please provide both current and new passwords." });
+    }
+
+    User.findByPk(userId)
+        .then(user => {
+            if (!user) {
+                return res.status(404).send({ message: "User not found." });
+            }
+
+            // Verify the current password
+            const passwordIsValid = bcrypt.compareSync(currentPassword, user.password);
+            if (!passwordIsValid) {
+                return res.status(401).send({ message: "Invalid current password!" });
+            }
+
+            // Validate the new password format
+            const passwordRegex = /^(?=.*[A-Z])(?=.*[!@#$&*]).{8,16}$/;
+            if (!passwordRegex.test(newPassword)) {
+                return res.status(400).send({
+                    message: "New password must be 8-16 characters, with at least one uppercase letter and one special character."
+                });
+            }
+
+            // Hash and update the new password
+            user.password = bcrypt.hashSync(newPassword, 8);
+            user.save()
+                .then(() => {
+                    res.status(200).send({ message: "Password updated successfully!" });
+                })
+                .catch(err => {
+                    res.status(500).send({ message: err.message });
+                });
+        })
+        .catch(err => {
+            res.status(500).send({ message: err.message });
+        });
+};

@@ -22,4 +22,11 @@ module.exports = function(app) {
     [authJwt.verifyToken, authJwt.isAdmin],
     controller.createUser
   );
+
+   // Route for a logged-in user to update their password
+  app.put(
+    "/api/user/password",
+    [authJwt.verifyToken], // Ensures only logged-in users can access
+    controller.updatePassword
+  );
 };
