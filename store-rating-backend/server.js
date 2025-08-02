@@ -5,10 +5,10 @@ require('dotenv').config();
 
 const app = express();
 
-// CORS configuration to allow requests from the React frontend
+// cors configuration to allow requests from the React frontend
 app.use(cors({ origin: "http://localhost:3000" }));
 
-// Middleware to parse JSON and URL-encoded request bodies
+// middleware to parse JSON and URL-encoded request bodies
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -34,12 +34,12 @@ function initial() {
         address: "123 Admin St",
         role: "System Administrator"
       });
-      console.log("✅ Created initial System Administrator account.");
+      console.log("Created initial System Administrator account.");
     }
   });
 }
 
-// --- Routes ---
+
 app.get("/", (req, res) => {
   res.json({ message: "Welcome to the Store Rater API." });
 });
@@ -52,5 +52,5 @@ require('./routes/store.routes')(app);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
-  console.log(`🚀 Server is running on port ${PORT}.`);
+  console.log(`Server is running on port ${PORT}.`);
 });
