@@ -111,7 +111,7 @@ DB_PASSWORD=your_mysql_password
 DB_NAME=store_rating_db
 
 # JWT Secret Key
-JWT_SECRET=a-very-strong-and-secret-key-for-jwt
+JWT_SECRET=kjdfdsfkjdwfewpofjpow
 
 # Server Port
 PORT=8080
