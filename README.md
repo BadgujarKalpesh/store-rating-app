@@ -1,6 +1,6 @@
 Here’s your content converted into a clean **`README.md`** format with proper markdown styling:
 
-````markdown
+
 # 📦 Store Rating Full-Stack Application
 
 This is a complete full-stack web application designed to allow users to rate and review stores. It features a robust, role-based access control system that provides different functionalities for **System Administrators**, **Normal Users**, and **Store Owners**.
@@ -141,9 +141,4 @@ Frontend runs at: [http://localhost:3000](http://localhost:3000)
 
 This project is licensed under the MIT License.
 
-```
-
 ---
-
-Do you want me to **also add screenshots & badges** in this `README.md` so it looks more professional on GitHub? That would make it stand out a lot more.
-```
