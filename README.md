@@ -1,6 +1,3 @@
-Here’s your content converted into a clean **`README.md`** format with proper markdown styling:
-
-
 # 📦 Store Rating Full-Stack Application
 
 This is a complete full-stack web application designed to allow users to rate and review stores. It features a robust, role-based access control system that provides different functionalities for **System Administrators**, **Normal Users**, and **Store Owners**.
@@ -8,6 +5,9 @@ This is a complete full-stack web application designed to allow users to rate an
 The application is built with a modern tech stack, featuring a **React** frontend that communicates with a **Node.js & Express.js** backend API, with data persisted in a **MySQL** database.
 
 ---
+
+## Screenshort 
+
 
 ## 🚀 Features
 
@@ -134,11 +134,5 @@ Frontend runs at: [http://localhost:3000](http://localhost:3000)
    * Log in as Store Owner → View dashboard.
    * Log in as Normal User → Browse & rate stores.
    * Log back in as Store Owner → See ratings in dashboard.
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.
 
 ---
