@@ -81,7 +81,6 @@ The application has three distinct user roles:
 - **Frontend:** React.js
 - **Backend:** Node.js + Express.js
 - **Database:** MySQL
-- **ORM:** Sequelize
 - **Authentication:** JSON Web Tokens (JWT)
 
 ---
